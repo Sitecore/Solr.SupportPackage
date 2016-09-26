@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.ContentSearch.SolrProvider.StructureMapIntegration", "Sitecore.ContentSearch.SolrProvider.StructureMapIntegration\Sitecore.ContentSearch.SolrProvider.StructureMapIntegration.csproj", "{0AAC2889-D762-42BA-B4E5-E4A2C7286A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.ContentSearch.SolrProvider.AutoFacIntegration", "Sitecore.ContentSearch.SolrProvider.AutoFacIntegration\Sitecore.ContentSearch.SolrProvider.AutoFacIntegration.csproj", "{0265C0BA-F353-43C2-B20F-6453FD6B465D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.ContentSearch.SolrProvider.CastleWindsor", "Sitecore.ContentSearch.SolrProvider.CastleWindsorIntegration\Sitecore.ContentSearch.SolrProvider.CastleWindsor.csproj", "{AB62BE7A-43D2-445B-9204-C9AF110359F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.ContentSearch.SolrProvider.NinjectIntegration", "Sitecore.ContentSearch.SolrProvider.NinjectIntegration\Sitecore.ContentSearch.SolrProvider.NinjectIntegration.csproj", "{52EB7637-E014-4DD0-9552-A0FEA7AF4AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.ContentSearch.SolrProvider.UnityIntegration", "Sitecore.ContentSearch.SolrProvider.UnityIntegration\Sitecore.ContentSearch.SolrProvider.UnityIntegration.csproj", "{211EC41E-DEEB-42F9-8331-1B9DA1FAB99D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A32EC82F-4F7A-410A-95F3-EF0DCA8512A0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.ContentSearch.Solr.SupportPackage", "Sitecore.ContentSearch.Solr.SupportPackage\Sitecore.ContentSearch.Solr.SupportPackage.csproj", "{696394B5-B011-4CA3-8600-01660E4D2965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug with code coverage|Any CPU = Debug with code coverage|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AAC2889-D762-42BA-B4E5-E4A2C7286A85}.Debug with code coverage|Any CPU.ActiveCfg = Debug with code coverage|Any CPU
+		{0AAC2889-D762-42BA-B4E5-E4A2C7286A85}.Debug with code coverage|Any CPU.Build.0 = Debug with code coverage|Any CPU
+		{0AAC2889-D762-42BA-B4E5-E4A2C7286A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAC2889-D762-42BA-B4E5-E4A2C7286A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAC2889-D762-42BA-B4E5-E4A2C7286A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAC2889-D762-42BA-B4E5-E4A2C7286A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0265C0BA-F353-43C2-B20F-6453FD6B465D}.Debug with code coverage|Any CPU.ActiveCfg = Debug|Any CPU
+		{0265C0BA-F353-43C2-B20F-6453FD6B465D}.Debug with code coverage|Any CPU.Build.0 = Debug|Any CPU
+		{0265C0BA-F353-43C2-B20F-6453FD6B465D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0265C0BA-F353-43C2-B20F-6453FD6B465D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0265C0BA-F353-43C2-B20F-6453FD6B465D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0265C0BA-F353-43C2-B20F-6453FD6B465D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB62BE7A-43D2-445B-9204-C9AF110359F8}.Debug with code coverage|Any CPU.ActiveCfg = Debug with code coverage|Any CPU
+		{AB62BE7A-43D2-445B-9204-C9AF110359F8}.Debug with code coverage|Any CPU.Build.0 = Debug with code coverage|Any CPU
+		{AB62BE7A-43D2-445B-9204-C9AF110359F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB62BE7A-43D2-445B-9204-C9AF110359F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB62BE7A-43D2-445B-9204-C9AF110359F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB62BE7A-43D2-445B-9204-C9AF110359F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52EB7637-E014-4DD0-9552-A0FEA7AF4AF9}.Debug with code coverage|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EB7637-E014-4DD0-9552-A0FEA7AF4AF9}.Debug with code coverage|Any CPU.Build.0 = Debug|Any CPU
+		{52EB7637-E014-4DD0-9552-A0FEA7AF4AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EB7637-E014-4DD0-9552-A0FEA7AF4AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EB7637-E014-4DD0-9552-A0FEA7AF4AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EB7637-E014-4DD0-9552-A0FEA7AF4AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211EC41E-DEEB-42F9-8331-1B9DA1FAB99D}.Debug with code coverage|Any CPU.ActiveCfg = Debug|Any CPU
+		{211EC41E-DEEB-42F9-8331-1B9DA1FAB99D}.Debug with code coverage|Any CPU.Build.0 = Debug|Any CPU
+		{211EC41E-DEEB-42F9-8331-1B9DA1FAB99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211EC41E-DEEB-42F9-8331-1B9DA1FAB99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211EC41E-DEEB-42F9-8331-1B9DA1FAB99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211EC41E-DEEB-42F9-8331-1B9DA1FAB99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696394B5-B011-4CA3-8600-01660E4D2965}.Debug with code coverage|Any CPU.ActiveCfg = Debug|Any CPU
+		{696394B5-B011-4CA3-8600-01660E4D2965}.Debug with code coverage|Any CPU.Build.0 = Debug|Any CPU
+		{696394B5-B011-4CA3-8600-01660E4D2965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696394B5-B011-4CA3-8600-01660E4D2965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696394B5-B011-4CA3-8600-01660E4D2965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696394B5-B011-4CA3-8600-01660E4D2965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

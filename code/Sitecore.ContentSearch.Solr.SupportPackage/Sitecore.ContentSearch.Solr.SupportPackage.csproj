@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{696394B5-B011-4CA3-8600-01660E4D2965}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sitecore.ContentSearch.Solr.SupportPackage</RootNamespace>
+    <AssemblyName>Sitecore.ContentSearch.Solr.SupportPackage</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sitecore.ContentSearch.SolrProvider.AutoFacIntegration\Sitecore.ContentSearch.SolrProvider.AutoFacIntegration.csproj">
+      <Project>{0265c0ba-f353-43c2-b20f-6453fd6b465d}</Project>
+      <Name>Sitecore.ContentSearch.SolrProvider.AutoFacIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sitecore.ContentSearch.SolrProvider.CastleWindsorIntegration\Sitecore.ContentSearch.SolrProvider.CastleWindsor.csproj">
+      <Project>{ab62be7a-43d2-445b-9204-c9af110359f8}</Project>
+      <Name>Sitecore.ContentSearch.SolrProvider.CastleWindsor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sitecore.ContentSearch.SolrProvider.NinjectIntegration\Sitecore.ContentSearch.SolrProvider.NinjectIntegration.csproj">
+      <Project>{52eb7637-e014-4dd0-9552-a0fea7af4af9}</Project>
+      <Name>Sitecore.ContentSearch.SolrProvider.NinjectIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sitecore.ContentSearch.SolrProvider.StructureMapIntegration\Sitecore.ContentSearch.SolrProvider.StructureMapIntegration.csproj">
+      <Project>{0aac2889-d762-42ba-b4e5-e4a2c7286a85}</Project>
+      <Name>Sitecore.ContentSearch.SolrProvider.StructureMapIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sitecore.ContentSearch.SolrProvider.UnityIntegration\Sitecore.ContentSearch.SolrProvider.UnityIntegration.csproj">
+      <Project>{211ec41e-deeb-42f9-8331-1b9da1fab99d}</Project>
+      <Name>Sitecore.ContentSearch.SolrProvider.UnityIntegration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.Autofac.config.example">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.CastleWindsor.config.example">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.Ninject.config.example">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.StructureMap.config.example">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.Unity.config.example">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
