@@ -34,11 +34,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Extensions.DependencyInjection">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <HintPath>..\Sitecore\Microsoft.Extensions.DependencyInjection.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <HintPath>..\Sitecore\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
@@ -51,28 +51,28 @@
       <HintPath>..\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Abstractions">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Sitecore.Abstractions.dll</HintPath>
+      <HintPath>..\Sitecore\Sitecore.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Client">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Sitecore.Client.dll</HintPath>
+      <HintPath>..\Sitecore\Sitecore.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.ContentSearch.API.8.2.1.37-r160906\lib\net452\Sitecore.ContentSearch.dll</HintPath>
+      <HintPath>..\Sitecore\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.SolrProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.ContentSearch.Solr.API.8.2.1.37-r160906\lib\net452\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
+      <HintPath>..\Sitecore\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\Sitecore\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="SolrNet, Version=0.4.0.2002, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\SolrNet.0.4.0.2002\lib\SolrNet.dll</HintPath>
+      <HintPath>..\Sitecore\SolrNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -85,7 +85,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Unity.SolrNetIntegration, Version=0.4.0.2002, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Unity.SolrNetIntegration.0.4.0.2002\lib\Unity.SolrNetIntegration.dll</HintPath>
+      <HintPath>components\Unity.SolrNetIntegration.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

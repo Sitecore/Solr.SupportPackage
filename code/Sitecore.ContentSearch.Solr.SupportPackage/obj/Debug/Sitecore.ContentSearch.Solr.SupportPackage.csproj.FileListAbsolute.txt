@@ -77,3 +77,13 @@ C:\apps\SolrSupportPackage\code\Output\App_Config\Include\Sitecore.ContentSearch
 C:\apps\SolrSupportPackage\code\Output\App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.Unity.config.example
 C:\apps\SolrSupportPackage\code\Output\Sitecore.ContentSearch.Solr.SupportPackage.dll
 C:\apps\SolrSupportPackage\code\Output\Sitecore.ContentSearch.Solr.SupportPackage.pdb
+C:\Code\Solr.SupportPackage\code\Sitecore.ContentSearch.Solr.SupportPackage\obj\Debug\Sitecore.ContentSearch.Solr.SupportPackage.csprojResolveAssemblyReference.cache
+C:\Code\Solr.SupportPackage\code\Output\App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.Autofac.config.example
+C:\Code\Solr.SupportPackage\code\Output\App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.CastleWindsor.config.example
+C:\Code\Solr.SupportPackage\code\Output\App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.Ninject.config.example
+C:\Code\Solr.SupportPackage\code\Output\App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.StructureMap.config.example
+C:\Code\Solr.SupportPackage\code\Output\App_Config\Include\Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.IOC.Unity.config.example
+C:\Code\Solr.SupportPackage\code\Output\Sitecore.ContentSearch.Solr.SupportPackage.dll
+C:\Code\Solr.SupportPackage\code\Output\Sitecore.ContentSearch.Solr.SupportPackage.pdb
+C:\Code\Solr.SupportPackage\code\Sitecore.ContentSearch.Solr.SupportPackage\obj\Debug\Sitecore.ContentSearch.Solr.SupportPackage.dll
+C:\Code\Solr.SupportPackage\code\Sitecore.ContentSearch.Solr.SupportPackage\obj\Debug\Sitecore.ContentSearch.Solr.SupportPackage.pdb
