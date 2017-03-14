@@ -1,0 +1,1 @@
+1. Open and Compile Solution. All the packages will be automatically downloaded

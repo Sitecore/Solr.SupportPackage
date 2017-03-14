@@ -42,42 +42,33 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.Extensions.DependencyInjection">
-      <HintPath>..\Sitecore\Microsoft.Extensions.DependencyInjection.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-      <HintPath>..\Sitecore\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
+    <Reference Include="Microsoft.CSharp" />    
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Sitecore\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Abstractions">
-      <HintPath>..\Sitecore\Sitecore.Abstractions.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Abstractions.NoReferences.8.2.161115\lib\NET452\Sitecore.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Client">
-      <HintPath>..\Sitecore\Sitecore.Client.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Client.NoReferences.8.2.161115\lib\NET452\Sitecore.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Sitecore\Sitecore.ContentSearch.dll</HintPath>
+      <HintPath>..\packages\Sitecore.ContentSearch.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.SolrProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Sitecore\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
+      <HintPath>..\packages\Sitecore.ContentSearch.SolrProvider.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\Sitecore\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Kernel.NoReferences.8.2.161115\lib\NET452\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="SolrNet, Version=0.4.0.2002, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Sitecore\SolrNet.dll</HintPath>
+    <Reference Include="SolrNet">
+      <HintPath>..\packages\SolrNet.0.4.0.2002\lib\SolrNet.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=2.6.2.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
