@@ -43,40 +43,31 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.Extensions.DependencyInjection">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Microsoft.Extensions.DependencyInjection.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=59d6d24383174ac4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Abstractions">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Sitecore.Abstractions.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Abstractions.NoReferences.8.2.161115\lib\NET452\Sitecore.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Client">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Sitecore.Client.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Client.NoReferences.8.2.161115\lib\NET452\Sitecore.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.ContentSearch.API.8.2.1.37-r160906\lib\net452\Sitecore.ContentSearch.dll</HintPath>
+      <HintPath>..\packages\Sitecore.ContentSearch.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.SolrProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.ContentSearch.Solr.API.8.2.1.37-r160906\lib\net452\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
+      <HintPath>..\packages\Sitecore.ContentSearch.SolrProvider.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\Sitecore.CMS.Core.API.10.0.1.56-release-82-update1\lib\net452\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Kernel.NoReferences.8.2.161115\lib\NET452\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="SolrNet, Version=0.4.0.2002, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="SolrNet">
       <HintPath>..\packages\SolrNet.0.4.0.2002\lib\SolrNet.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=2.6.2.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
@@ -85,7 +76,7 @@
     </Reference>
     <Reference Include="StructureMap.SolrNetIntegration, Version=0.4.0.2002, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\StructureMap.SolrNetIntegration.0.4.0.2002\lib\StructureMap.SolrNetIntegration.dll</HintPath>
+      <HintPath>components\StructureMap.SolrNetIntegration.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -102,7 +93,9 @@
     <Compile Include="StructureMapSolrStartUp.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
