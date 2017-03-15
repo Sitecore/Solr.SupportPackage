@@ -16,8 +16,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A32EC82F-4F7A-410A-95F3-EF0DCA8512A0}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.ContentSearch.Solr.SupportPackage", "Sitecore.ContentSearch.Solr.SupportPackage\Sitecore.ContentSearch.Solr.SupportPackage.csproj", "{696394B5-B011-4CA3-8600-01660E4D2965}"
@@ -70,3 +68,4 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
+
