@@ -67,7 +67,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="SolrNet">
-      <HintPath>..\packages\SolrNet.0.4.0.2002\lib\SolrNet.dll</HintPath>
+      <HintPath>..\SolrNet.0.4.0.2002\SolrNet.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=2.6.2.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -105,4 +105,3 @@
   </Target>
   -->
 </Project>
-
