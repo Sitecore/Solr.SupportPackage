@@ -70,7 +70,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="SolrNet">
-      <HintPath>..\packages\SolrNet.0.4.0.2002\lib\SolrNet.dll</HintPath>
+      <HintPath>..\SolrNet.0.4.0.2002\SolrNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -103,4 +103,3 @@
   </Target>
   -->
 </Project>
-
