@@ -76,6 +76,7 @@ namespace Sitecore.ContentSearch.SolrProvider.CastleWindsorIntegration
                 {
                     connection.Cache = this.Container.Resolve<ISolrCache>() ?? new NullCache();
                 }
+				connection.Timeout = SolrContentSearchManager.ConnectionTimeout;
 
                 connection.HttpWebRequestFactory = this.Container.Resolve<IHttpWebRequestFactory>();
             }
@@ -114,6 +115,7 @@ namespace Sitecore.ContentSearch.SolrProvider.CastleWindsorIntegration
             {
                 connection.Cache = this.Container.Resolve<ISolrCache>() ?? new NullCache();
             }
+			connection.Timeout = SolrContentSearchManager.ConnectionTimeout;
 
             return new SolrCoreAdminEx(connection, this.Container.Resolve<ISolrHeaderResponseParser>(), this.Container.Resolve<ISolrStatusResponseParser>());
         }
